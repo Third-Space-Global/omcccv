@@ -1,6 +1,6 @@
 <?php
 require_once('../config.php');
-$connect = mysqli_connect("localhost", "clwuwkmy_aakil", "Analytics&BUSINESSSYSTEMS@202", "clwuwkmy_recruitment");
+$connect = mysqli_connect("remotemysql.com", "TK1e63o82L", "sAJ9k6SVba", "TK1e63o82L");
 session_start();
 $name = $_SESSION['name'];
 $user_id = $_SESSION['id']; 
