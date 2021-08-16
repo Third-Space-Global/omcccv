@@ -1,0 +1,162 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #000;
+}
+/* 
+a {
+  float: right;
+  background: #555;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.7;
+} */
+
+/* === Login Page === */
+
+.error {
+  text-align: center;
+  color: #a94442;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 17px;
+  margin: 15px auto 10px auto;
+}
+
+.card-view {
+  width: 45vw;
+  height: 435px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#login-form img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 11vw;
+}
+
+#pattern img {
+  height: 435px;
+  width: 100%;
+}
+
+#login input {
+  display: block;
+  border: 1px solid #ccc;
+  width: 85%;
+  padding: 10px;
+  margin-left: 1.2em;
+  border-radius: 15px;
+}
+
+#login label {
+  color: #000;
+  font-size: 18px;
+  margin: auto auto auto 1.2em;
+  display: block;
+  font-weight: bold;
+}
+
+#login button {
+  background: #008ddd;
+  padding: 8px 30px;
+  color: #fff;
+  border-radius: 3px 20px 3px 1.2rem;
+  margin: 12px auto auto auto;
+  display: block;
+  border: none;
+}
+
+#login button:hover {
+  background: #00be88;
+}
+
+input:focus {
+  outline: none;
+}
+
+#err-message {
+  height: 60px;
+}
+
+.container {
+  margin: auto;
+  width: 60%;
+  top: 50%;
+  transform: translateY(-50);
+  padding: 50px;
+  border: 2px solid #000;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .card-view {
+    width: 70vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #login-form img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 40vw;
+  }
+
+  #login label {
+    color: #000;
+    font-size: 18px;
+    margin: auto auto auto 2em;
+    display: block;
+    font-weight: bold;
+  }
+
+  #login input {
+    display: block;
+    border: 1px solid #ccc;
+    width: 85%;
+    padding: 10px;
+    margin-left: 2em;
+    border-radius: 15px;
+  }
+
+  #login button {
+    background: #008ddd;
+    padding: 8px 30px;
+    color: #fff;
+    border-radius: 3px 20px 3px 1.2rem;
+    margin: auto auto 30px;
+    display: block;
+    border: none;
+  }
+}
+
+.reset_pwd{
+  text-align: center;
+  margin-top: 15px;
+}
